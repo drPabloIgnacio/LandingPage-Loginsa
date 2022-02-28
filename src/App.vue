@@ -3,6 +3,7 @@
     <v-navigation :color="color" :flat="flat" />
     <v-main>
       <Header />
+      <HomeSection />
 
     </v-main>
     <v-scale-transition>
@@ -24,6 +25,7 @@
 
 <script>
 import Header from './components/Header.vue';
+import HomeSection from './components/HomeSection';
 
 
 
@@ -36,6 +38,7 @@ export default {
   components: {
     Header,
     foote,
+    HomeSection,
   },
 
   data: () => ({
