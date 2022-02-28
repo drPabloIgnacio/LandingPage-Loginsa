@@ -1,4 +1,4 @@
-# landing-page
+# landing-page Vue and Vuetify 2
 
 ## Project setup
 ```
