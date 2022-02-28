@@ -1,20 +1,21 @@
 <template>
   <v-app>
-    <v-navigation :color="color" :flat="flat" />
+    <navigation :color="color" :flat="flat" />
     <v-main>
       <Header />
       <HomeSection />
-
     </v-main>
     <v-scale-transition>
       <v-btn
-      fab
-      v-show="fab"
-      v-scroll="onScroll"
-      darkfixed
-      bottom
-      color="secondary"
-      @click="toTop"
+        fab
+        v-show="fab"
+        v-scroll="onScroll"
+        dark
+        fixed
+        bottom
+        right
+        color="secondary"
+        @click="toTop"
       >
         <v-icon>mdi-arrow-up</v-icon>
       </v-btn>
@@ -24,16 +25,13 @@
 </template>
 
 <script>
-import Header from './components/Header.vue';
-import HomeSection from './components/HomeSection';
+import Header from "./components/Header.vue";
+import HomeSection from "./components/HomeSection";
 
-
-
-
-import foote from './components/Footer.vue';
+import foote from "./components/Footer.vue";
 
 export default {
-  name: 'App',
+  name: "App",
 
   components: {
     Header,
