@@ -1,15 +1,21 @@
 <template>
   <div>
-    <v-navigation-drawer v.model="drawer" app temporary dark>
+    <v-navigation-drawer
+      v-model="drawer"
+      app
+      temporary
+      dark
+      src="@/assets/img/bgDrawer.jpg"
+    >
       <v-list>
         <v-list-item>
           <v-list-item-avatar>
             <!-- <img src="@/assets/img/logo.png" alt="logo"> -->
           </v-list-item-avatar>
-          <v-list-item-conent>
+          <v-list-item-content>
             <v-list-item-tittle class="title">Loginsa</v-list-item-tittle>
             <v-list-item-subtitle>WEB</v-list-item-subtitle>
-          </v-list-item-conent>
+          </v-list-item-content>
         </v-list-item>
       </v-list>
 
@@ -42,9 +48,9 @@
       class="px-15"
       :class="{ expand: flat }"
     >
-      <v-toolbr-title>
+      <v-toolbar-title>
         <!-- <v-img src="@/assets/img/logo.png" max-width="50px" /> -->
-      </v-toolbr-title>
+      </v-toolbar-title>
       <v-spacer />
       <v-app-bar-nav-icon
         @click.stop="drawer = !drawer"
