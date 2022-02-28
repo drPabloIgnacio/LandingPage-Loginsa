@@ -13,7 +13,7 @@
             <!-- <img src="@/assets/img/logo.png" alt="logo"> -->
           </v-list-item-avatar>
           <v-list-item-content>
-            <v-list-item-tittle class="title">Loginsa</v-list-item-tittle>
+            <v-list-item-title class="title">Loginsa</v-list-item-title>
             <v-list-item-subtitle>WEB</v-list-item-subtitle>
           </v-list-item-content>
         </v-list-item>
@@ -32,9 +32,9 @@
             <v-icon>{{ icon }}</v-icon>
           </v-list-item-icon>
           <v-list-item-content>
-            <v-list-item-tittle class="subtitile-1">
+            <v-list-item-title class="subtitile-1">
               {{ text }}
-            </v-list-item-tittle>
+            </v-list-item-title>
           </v-list-item-content>
         </v-list-item>
       </v-list>
