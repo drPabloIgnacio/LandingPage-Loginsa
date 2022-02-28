@@ -68,10 +68,46 @@
 
 <script>
 export default {
+    data: () => ({
+        drawer: null,
+        isXs: false,
+        items: [
+            ["mdi-home-outline", "Home", "Hero"],
+        ]
+    }),
+    props: {
+        color: String,
+        flat: Boolean,
+    },
+    methods: {
+        onResize() {
+            this.isXs = window.innerWidth < 850;
+        },
+    },
 
-}
+    watch: {
+        isXs(value) {
+            if(!value) {
+                if (this.drawer) {
+                    this.drawer = false;
+                }
+            }
+        },
+    },
+    mounted() {
+        this.onResize();
+        window.addEventListener("resize", this.onResize, { passive: true});
+    },
+};
 </script>
 
 <style>
+.v-toolbar {
+    transition: 0.6s;
+}
 
+.expand {
+    height: 80px !important;
+    padding-top: 10px;
+}
 </style>
