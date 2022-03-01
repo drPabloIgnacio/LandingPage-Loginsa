@@ -78,9 +78,9 @@
         <v-col cols="10">
           <v-row align="center" justify="space-around">
             <v-col cols="12" class="text-center">
-              <h1 class="font-weight-light display-2">Title</h1>
+              <h1 class="font-weight-light display-2">Titulo</h1>
               <h1 class="font-weight-light">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                info info info info info info info info info info.
               </h1>
             </v-col>
             <v-col
@@ -138,18 +138,18 @@ export default {
       features: [
         {
           img: require("@/assets/img/icon2.png"),
-          title: "Design Limpo",
-          text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+          title: "Titulo",
+          text: "info info info info info info.",
         },
         {
           img: require("@/assets/img/icon2.png"),
-          title: "Dados Seguros",
-          text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+          title: "Titulo",
+          text: "info info info info info info.",
         },
         {
           img: require("@/assets/img/icon2.png"),
-          title: "Código Aberto",
-          text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+          title: "Titulo",
+          text: "info info info info info info.",
         },
       ],
     };

@@ -3,7 +3,7 @@
     <header :color="color" :flat="flat" />
     <v-main class="pt-0">
       <Header />
-      <homeSection />
+      <HomeSection />
     </v-main>
     <v-scale-transition>
       <v-btn
@@ -26,7 +26,7 @@
 
 <script>
 import Header from "./components/Header.vue";
-import homeSection from "./components/HomeSection";
+import HomeSection from "./components/HomeSection";
 
 import foote from "./components/Footer.vue";
 
@@ -35,7 +35,7 @@ export default {
 
   components: {
     Header,
-    homeSection,
+    HomeSection,
     foote,
   },
 
