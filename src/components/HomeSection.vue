@@ -1,15 +1,15 @@
 <template>
   <section id="hero">
-    <v-parallax dark src="@/assets/img/imghero.jpg" height="750">
+    <v-parallax dark src="@/assets/img/imgHero.jpg" height="750">
       <v-row align="center" justify="center">
         <v-col cols="10">
           <v-row align="center" justify="center">
             <v-col cols="12" md="6" xl="8">
               <h1 class="display-2 font-weight-bold mb-4">Lockseguridad</h1>
               <h1 class="font-weight-light">
-                Lorem ipsum dolor sit amet consectetur <br />
-                adipisicing elit. Maiores porro voluptatibus <br />
-                delectus nam optio harum!
+                Hoy mas que nunca <br />
+                la seguridad se ha transformado <br />
+                en una necesidad para todos.
               </h1>
               <v-btn
                 rounded
@@ -78,9 +78,17 @@
         <v-col cols="10">
           <v-row align="center" justify="space-around">
             <v-col cols="12" class="text-center">
-              <h1 class="font-weight-light display-2">Titulo</h1>
+              <h1 class="font-weight-light display-2">
+                Apoya el trabajo del personal de seguridad
+              </h1>
               <h1 class="font-weight-light">
-                info info info info info info info info info info.
+                Lock es una innovadora herramienta los sistemas de rondas,
+                <br />
+                controles de acceso, seguridad en comunidades, condominios,
+                bodegas, locales comerciales, supermercados, establecimientos
+                <br />
+                educacionales y todo tipo de infraestructura que requiera
+                control de seguridad.
               </h1>
             </v-col>
             <v-col
@@ -138,17 +146,17 @@ export default {
       features: [
         {
           img: require("@/assets/img/icon2.png"),
-          title: "Titulo",
+          title: "Gestiona",
           text: "info info info info info info.",
         },
         {
           img: require("@/assets/img/icon2.png"),
-          title: "Titulo",
+          title: "Controla",
           text: "info info info info info info.",
         },
         {
           img: require("@/assets/img/icon2.png"),
-          title: "Titulo",
+          title: "Organiza",
           text: "info info info info info info.",
         },
       ],

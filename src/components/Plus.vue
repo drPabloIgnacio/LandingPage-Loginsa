@@ -6,7 +6,7 @@
           <v-row align="center" justify="center">
             <v-col sm="4" class="hidden-xs-only">
               <v-img
-                src="@/assets/img/ill2.svg"
+                src="@/assets/img/logo-lock.png"
                 class="d-block ml-auto mr-auto"
                 max-width="350px"
               />
