@@ -277,7 +277,7 @@ export default {
     plan: [
       {
         title: "Básico",
-        price: "R$100,00",
+        price: "$ 15.000",
         img: "f1.png",
         features: [
           {
@@ -311,8 +311,8 @@ export default {
         ],
       },
       {
-        title: "Padrão",
-        price: "R$150,00",
+        title: "Profesional",
+        price: "$ 110000",
         img: "f2.png",
         features: [
           {
@@ -348,8 +348,8 @@ export default {
         ],
       },
       {
-        title: "Premium",
-        price: "R$250,00",
+        title: "Empresarial",
+        price: "$ 200.000",
         img: "f3.png",
         features: [
           {
