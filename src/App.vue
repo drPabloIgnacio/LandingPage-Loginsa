@@ -5,8 +5,8 @@
       <Header />
       <HomeSection />
       <About />
-      <Planes />
       <Plus />
+      <Planes />
     </v-main>
     <v-scale-transition>
       <v-btn

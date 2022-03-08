@@ -67,6 +67,9 @@
         <v-btn text @click="$vuetify.goTo('#plus')">
           <span class="mr-2">Plus</span>
         </v-btn>
+        <v-btn text @click="$vuetify.goTo('#planes')">
+          <span class="mr-2">Planes</span>
+        </v-btn>
       </div>
     </v-app-bar>
   </div>
