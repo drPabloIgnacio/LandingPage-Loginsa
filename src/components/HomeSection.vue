@@ -7,9 +7,7 @@
             <v-col cols="12" md="6" xl="8">
               <h1 class="display-2 font-weight-bold mb-4">Lockseguridad</h1>
               <h1 class="font-weight-light">
-                Hoy mas que nunca <br />
-                la seguridad se ha transformado <br />
-                en una necesidad para todos.
+                Donde la seguridad es una necesidad
               </h1>
               <v-btn
                 rounded

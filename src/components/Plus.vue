@@ -12,22 +12,32 @@
               />
             </v-col>
             <v-col cols="12" sm="8" class="white--text text-left">
-              <h1 class="font-weight-light display-2 mb-2">LockSegurodad</h1>
+              <h1 class="font-weight-light display-2 mb-2">LockSeguridad</h1>
               <h1 class="font-weight-light">
-                Prueba nuestra demo gratuita por tiempo limitado o cualquier
-                otro texto mas puede ir aca 0 atao.
+                Lock es una innovadora herramienta de sistemas de rondas,
+                controles de acceso, seguridad en comunidades, condominios,
+                bodegas, locales comerciales, supermercados, establecimientos
+                educacionales y todo tipo de infraestructura que requiera
+                control de seguridad.
+                <br />
+                <br />
+                Hoy mas que nunca la seguridad se ha transformado en una
+                necesidad para todos.
+                <br />
+                <br />
+                te invitamos a registrarte...
               </h1>
               <v-btn
                 rounded
                 outlined
-                href=""
+                href="https://www.lockseguridad.cl/lock/"
                 target="_blank"
                 large
                 color="white"
                 class="mt-4"
               >
-                <v-icon class="mr-2"> mdi-github </v-icon>
-                Git Hub
+                <v-icon class="mr-2"> mdi-web </v-icon>
+                Visitanos
               </v-btn>
             </v-col>
           </v-row>
