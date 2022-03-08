@@ -1,5 +1,5 @@
 <template>
-  <section id="download">
+  <section id="plus">
     <v-container fluid>
       <v-row align="center" justify="center">
         <v-col cols="10">
@@ -42,7 +42,7 @@ export default {};
 </script>
 
 <style scoped>
-#download {
+#plus {
   background-image: url("~@/assets/img/bgDownload.jpg");
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -51,8 +51,8 @@ export default {};
   height: 500px;
 }
 
-#download .container,
-#download .row {
+#plus .container,
+#plus .row {
   height: 100%;
 }
 </style>

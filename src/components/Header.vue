@@ -64,6 +64,9 @@
         <v-btn text @click="$vuetify.goTo('#about')">
           <span class="mr-2">Información</span>
         </v-btn>
+        <v-btn text @click="$vuetify.goTo('#plus')">
+          <span class="mr-2">Plus</span>
+        </v-btn>
       </div>
     </v-app-bar>
   </div>
