@@ -5,6 +5,7 @@
       <Header />
       <HomeSection />
       <About />
+      <Planes />
       <Plus />
     </v-main>
     <v-scale-transition>
@@ -31,6 +32,7 @@ import Header from "./components/Header.vue";
 import HomeSection from "./components/HomeSection";
 import About from "./components/About.vue";
 import Plus from "./components/Plus.vue";
+import Planes from "./components/Planes.vue";
 
 import foote from "./components/Footer.vue";
 
@@ -42,6 +44,7 @@ export default {
     HomeSection,
     About,
     Plus,
+    Planes,
     foote,
   },
 
