@@ -4,6 +4,7 @@
     <v-main class="pt-0">
       <Header />
       <HomeSection />
+      <About />
     </v-main>
     <v-scale-transition>
       <v-btn
@@ -27,6 +28,7 @@
 <script>
 import Header from "./components/Header.vue";
 import HomeSection from "./components/HomeSection";
+import About from "./components/About.vue";
 
 import foote from "./components/Footer.vue";
 
@@ -36,6 +38,7 @@ export default {
   components: {
     Header,
     HomeSection,
+    About,
     foote,
   },
 

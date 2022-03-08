@@ -16,25 +16,17 @@
 
       <v-card-text class="white--text">
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt nobis
-        officiis eligendi ipsum impedit reprehenderit deleniti consequuntur
-        omnis? Quod cumque adipisci accusamus minima ut dolore veniam nihil unde
-        error repellendus! Nihil dolore sint sunt? Ea, aspernatur labore libero
-        facilis quibusdam suscipit fuga mollitia. Doloribus rem quibusdam ea
-        quam architecto enim consequuntur ad commodi animi expedita cumque,
-        error, explicabo adipisci voluptatibus?
       </v-card-text>
 
       <v-card-text class="white--text pt-0">
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe
         explicabo iste in tempore id corporis exercitationem enim ad, dolores
-        veritatis consectetur alias a quae? Labore fugit debitis quos doloribus
-        quam.
       </v-card-text>
 
       <v-divider></v-divider>
 
       <v-card-text class="white--text">
-        &copy; {{ new Date().getFullYear() }} - <strong>Loginsa</strong>
+        &copy; {{ new Date().getFullYear() }} - <strong>LockSeguridad</strong>
       </v-card-text>
     </v-card>
   </v-footer>
@@ -51,10 +43,6 @@ export default {
       {
         text: "mdi-twitter",
         link: "https://twitter.com/loginsachile",
-      },
-      {
-        text: "mdi-instagram",
-        link: "",
       },
       {
         text: "mdi-web",
