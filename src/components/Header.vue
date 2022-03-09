@@ -1,20 +1,14 @@
 <template>
   <div>
-    <v-navigation-drawer
-      v-model="drawer"
-      app
-      temporary
-      dark
-      src="@/assets/img/bgDrawer.jpg"
-    >
+    <v-navigation-drawer v-model="drawer" app temporary dark src="">
       <v-list>
         <v-list-item>
           <v-list-item-avatar>
-            <!-- <img src="@/assets/img/logo-lock.png" alt="logo" /> -->
+            <img src="@/assets/img/bgDrawer.jpg" alt="logo" />
           </v-list-item-avatar>
           <v-list-item-content>
-            <v-list-item-title class="title">Loginsa</v-list-item-title>
-            <v-list-item-subtitle>WEB</v-list-item-subtitle>
+            <v-list-item-title class="title">Lockseguridad</v-list-item-title>
+            <v-list-item-subtitle>By Loginsa.</v-list-item-subtitle>
           </v-list-item-content>
         </v-list-item>
       </v-list>
@@ -80,7 +74,13 @@ export default {
   data: () => ({
     drawer: null,
     isXs: false,
-    items: [["mdi-home-outline", "Home", "Hero"]],
+    items: [
+      ["mdi-home-outline", "Home", "#hero"],
+      ["mdi-information-outline", "About", "#about"],
+      ["mdi-web", "Plus", "#plus"],
+      ["mdi-currency-usd", "Planes", "#planes"],
+      ["mdi-email-outline", "Contacto", ""],
+    ],
   }),
   props: {
     color: String,
