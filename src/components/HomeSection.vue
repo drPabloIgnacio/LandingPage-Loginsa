@@ -79,15 +79,10 @@
               <h1 class="font-weight-light display-2">
                 Apoya el trabajo del personal de seguridad
               </h1>
-              <h1 class="font-weight-light">
+              <!-- <h1 class="font-weight-light" align="left">
                 Lock es una innovadora herramienta los sistemas de rondas,
-                <br />
                 controles de acceso, seguridad en comunidades, condominios,
-                bodegas, locales comerciales, supermercados, establecimientos
-                <br />
-                educacionales y todo tipo de infraestructura que requiera
-                control de seguridad.
-              </h1>
+              </h1> -->
             </v-col>
             <v-col
               cols="12"

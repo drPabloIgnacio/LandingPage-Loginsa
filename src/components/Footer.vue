@@ -37,7 +37,7 @@ export default {
   data: () => ({
     icons: [
       {
-        text: "mdi-facebook",
+        text: "mdi-instagram",
         link: "",
       },
       {
