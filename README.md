@@ -1,5 +1,6 @@
 # landing-page Vue and Vuetify 2
-
+> [!NOTE]
+> skjdklasjdklajsd
 ## Project setup
 ```
 npm install
